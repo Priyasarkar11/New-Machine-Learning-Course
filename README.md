@@ -18,3 +18,39 @@ It is a simple digit recognition model that predicts handwritten digits using a 
 Predicted Digit: 7
 Actual Digit: 7
 
+
+# Assignment 3 - House Price Prediction
+
+This project is part of the **Machine Learning Course**.
+The goal is to predict the price of a house using machine learning techniques.
+
+#What this project does:
+
+* Loads a housing dataset
+* Cleans and prepares the data
+* Explores the data with graphs
+* Splits the dataset into training and testing sets
+* Implements **Gradient Descent** to train a regression model
+* Tests the model and checks how well it predicts house prices
+
+#Tools and Libraries used:
+
+* **Python**
+* **Jupyter Notebook**
+* `pandas` → for handling data
+* `numpy` → for calculations
+* `matplotlib` → for graphs
+
+#How to run:
+1. Open the notebook in Jupyter or Google Colab.
+2. Run the cells step by step.
+3. Upload the dataset file (`Housing.csv`) when asked.
+
+#Results:
+
+* The model was able to make predictions, but the **R² value (accuracy) was low**.
+* This happened because:
+  * Not all factors that affect house price are included
+  * Gradient Descent with a simple regression model cannot capture complex patterns
+
+
